@@ -30,6 +30,20 @@
             "type": "basic"
         },
         {
+            "description": "Change right_option to command+control+option+shift (Hyper Key)",
+            "from": {
+                "key_code": "right_option",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_shift",
+                    "modifiers": ["left_command", "left_control", "left_option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
             "description": "Hyper+Q to F1",
             "from": {
                 "key_code": "q",
@@ -219,6 +233,150 @@
                 }
             },
             "to": [{ "key_code": "right_arrow" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+U to Page Up",
+            "from": {
+                "key_code": "u",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "page_up" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+O to Page Down",
+            "from": {
+                "key_code": "o",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "page_down" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+W to 7",
+            "from": {
+                "key_code": "w",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "7" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+E to 8",
+            "from": {
+                "key_code": "e",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "8" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+R to 9",
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "9" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+S to 4",
+            "from": {
+                "key_code": "s",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "4" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+D to 5",
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "5" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+F to 6",
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "6" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+X to 1",
+            "from": {
+                "key_code": "x",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "1" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+C to 2",
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "2" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+V to 3",
+            "from": {
+                "key_code": "v",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "3" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+Z to 0",
+            "from": {
+                "key_code": "z",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "0" }],
             "type": "basic"
         }
     ]
