@@ -30,9 +30,33 @@
             "type": "basic"
         },
         {
-            "description": "Hyper+Q to F1",
+            "description": "Hyper+Q to Decrease Brightness",
             "from": {
                 "key_code": "q",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "display_brightness_decrement" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+A to Increase Brightness",
+            "from": {
+                "key_code": "a",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{ "key_code": "display_brightness_increment" }],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+1 to f1",
+            "from": {
+                "key_code": "1",
                 "modifiers": {
                     "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
                     "optional": ["any"]
@@ -42,9 +66,9 @@
             "type": "basic"
         },
         {
-            "description": "Hyper+A to F2",
+            "description": "Hyper+2 to f2",
             "from": {
-                "key_code": "a",
+                "key_code": "2",
                 "modifiers": {
                     "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
                     "optional": ["any"]
